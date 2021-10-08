@@ -62,7 +62,7 @@
         <section class="section-heroy overlay">
             <div class="container heroy-container">
                 <h1 class="heroy-title">эффективные решения для вашего бизнеса</h1>
-                <button class="section-heroy-bt bt" type="button">Заказать услугу</button>
+                <button data-modal-open class="section-heroy-bt bt" type="button">Заказать услугу</button>
             </div>
         </section>
         <!--Zest-->
@@ -435,6 +435,14 @@
         </div>
 
     </footer>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+        <button data-modal-close class="close-button"type="button"><svg class="svg-modal"width="11px" height="11px">
+            <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
+        </svg>
+    </button>   
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 
 
